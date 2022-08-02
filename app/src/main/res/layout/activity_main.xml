@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/btn_str_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="存StringSet" />
+
+        <Button
+            android:id="@+id/btn_str_set2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="读StringSet" />
+
+        <Button
+            android:id="@+id/btn_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打印log" />
+
+        <Button
+            android:id="@+id/btn_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打印屏幕宽高" />
+
+        <Button
+            android:id="@+id/btn_sim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是否有sim卡" />
+
+        <Button
+            android:id="@+id/btn_thread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打印线程" />
+
+    </LinearLayout>
+</layout>
